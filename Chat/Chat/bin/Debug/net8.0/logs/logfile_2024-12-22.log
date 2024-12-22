@@ -1,0 +1,669 @@
+2024-12-22 14:39:05.5859 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 171
+2024-12-22 14:39:05.6582 Info Сервер TCP запущен на 127.0.0.1:8837 
+2024-12-22 14:39:05.6582 Info Сервер UDP запущен на 127.0.0.1:9118 
+2024-12-22 14:39:05.6582 Info Запуск отправки сообщений через UDP. 
+2024-12-22 14:39:06.8351 Info Отправлено UDP сообщение: 2024-12-22 14:39:06 asd 
+2024-12-22 14:39:06.8351 Info 2024-12-22 14:39:06 UDP: 2024-12-22 14:39:06 asd 
+2024-12-22 14:39:07.1928 Info Отправлено UDP сообщение: 2024-12-22 14:39:07 asd 
+2024-12-22 14:39:07.1928 Info 2024-12-22 14:39:07 UDP: 2024-12-22 14:39:07 asd 
+2024-12-22 14:39:07.5219 Info Отправлено UDP сообщение: 2024-12-22 14:39:07 asd 
+2024-12-22 14:39:07.5219 Info 2024-12-22 14:39:07 UDP: 2024-12-22 14:39:07 asd 
+2024-12-22 14:39:07.7821 Info Отправлено UDP сообщение: 2024-12-22 14:39:07 as 
+2024-12-22 14:39:07.7821 Info 2024-12-22 14:39:07 UDP: 2024-12-22 14:39:07 as 
+2024-12-22 14:39:08.0907 Info Отправлено UDP сообщение: 2024-12-22 14:39:08 dasd 
+2024-12-22 14:39:08.0951 Info 2024-12-22 14:39:08 UDP: 2024-12-22 14:39:08 dasd 
+2024-12-22 14:39:08.3419 Info Отправлено UDP сообщение: 2024-12-22 14:39:08 a 
+2024-12-22 14:39:08.3419 Info 2024-12-22 14:39:08 UDP: 2024-12-22 14:39:08 a 
+2024-12-22 14:39:09.1231 Info Отправлено UDP сообщение: 2024-12-22 14:39:09 sd 
+2024-12-22 14:39:09.1231 Info 2024-12-22 14:39:09 UDP: 2024-12-22 14:39:09 sd 
+2024-12-22 14:39:28.7602 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 171
+2024-12-22 14:39:28.8375 Info Сервер TCP запущен на 127.0.0.1:8194 
+2024-12-22 14:39:28.8375 Info Сервер UDP запущен на 127.0.0.1:9910 
+2024-12-22 14:39:28.8375 Info Запуск отправки сообщений через UDP. 
+2024-12-22 14:39:43.7495 Info Lbvd подключился. 
+2024-12-22 14:39:43.7555 Info Уведомление о подключении: Lbvd 
+2024-12-22 14:39:44.2169 Info Сообщение от Lbvd: 2024-12-22 14:39:44 Lbvd: as 
+2024-12-22 14:39:44.4159 Info Сообщение от Lbvd: 2024-12-22 14:39:44 Lbvd: da 
+2024-12-22 14:39:44.5893 Info Сообщение от Lbvd: 2024-12-22 14:39:44 Lbvd: sd 
+2024-12-22 14:39:44.7646 Info Сообщение от Lbvd: 2024-12-22 14:39:44 Lbvd: as 
+2024-12-22 14:39:44.9105 Info Сообщение от Lbvd: 2024-12-22 14:39:44 Lbvd: da 
+2024-12-22 14:39:45.0836 Info Сообщение от Lbvd: 2024-12-22 14:39:45 Lbvd: sd 
+2024-12-22 14:39:45.2584 Info Сообщение от Lbvd: 2024-12-22 14:39:45 Lbvd: a 
+2024-12-22 14:39:45.4527 Info Сообщение от Lbvd: 2024-12-22 14:39:45 Lbvd: sda 
+2024-12-22 14:39:45.6517 Info Сообщение от Lbvd: 2024-12-22 14:39:45 Lbvd: sd 
+2024-12-22 14:39:47.9569 Info Сообщение от Lbvd: 2024-12-22 14:39:47 Lbvd:  
+2024-12-22 14:39:50.7735 Info Lbvd отключился. 
+2024-12-22 14:42:15.6271 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 202
+2024-12-22 14:42:15.8389 Info Сервер TCP запущен на 127.0.0.1:8684 
+2024-12-22 14:42:15.8389 Info Сервер UDP запущен на 127.0.0.1:9288 
+2024-12-22 14:42:15.8389 Info Запуск отправки сообщений через UDP. 
+2024-12-22 14:42:38.9871 Info Дима подключился. 
+2024-12-22 14:42:42.7881 Info Вадим подключился. 
+2024-12-22 14:42:46.7115 Info Уведомление о подключении: Дима 
+2024-12-22 14:42:46.7115 Info Уведомление о подключении: Вадим 
+2024-12-22 14:42:46.7115 Info Сообщение от Вадим: 2024-12-22 14:42:46 Вадим: вфы 
+2024-12-22 14:42:51.2894 Info Отправлено UDP сообщение: 2024-12-22 14:42:51 фыв 
+2024-12-22 14:42:51.2894 Info 2024-12-22 14:42:51 UDP: 2024-12-22 14:42:51 фыв 
+2024-12-22 14:43:11.9777 Info Сообщение от Дима: 2024-12-22 14:43:11 Дима: /privat Вадим привет 
+2024-12-22 14:44:07.0871 Info Сообщение от Вадим: 2024-12-22 14:44:07 Вадим: /privat привет 
+2024-12-22 14:44:29.3904 Info Егор подключился. 
+2024-12-22 14:44:29.3904 Info Уведомление о подключении: Егор 
+2024-12-22 14:44:47.4713 Info Сообщение от Дима: 2024-12-22 14:44:47 Дима: /privat Вадим привет 
+2024-12-22 14:45:50.3831 Info Отправлено личное сообщение от Дима к Вадим: привет 
+2024-12-22 14:46:08.8083 Info Отправлено личное сообщение от Дима к Егор: привет 
+2024-12-22 14:46:48.0376 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 202
+2024-12-22 14:46:48.1684 Info Сервер TCP запущен на 127.0.0.1:8204 
+2024-12-22 14:46:48.1684 Info Сервер UDP запущен на 127.0.0.1:9391 
+2024-12-22 14:46:48.1684 Info Запуск отправки сообщений через UDP. 
+2024-12-22 14:47:03.8425 Info Dima подключился. 
+2024-12-22 14:47:03.8484 Info Уведомление о подключении: Dima 
+2024-12-22 14:47:13.8086 Info Егор подключился. 
+2024-12-22 14:47:13.8086 Info Уведомление о подключении: Егор 
+2024-12-22 14:47:28.7393 Info Вадим подключился. 
+2024-12-22 14:47:28.7393 Info Уведомление о подключении: Вадим 
+2024-12-22 14:47:37.8569 Info Сообщение от Dima: 2024-12-22 14:47:37 Dima: a 
+2024-12-22 14:47:48.2947 Info Сообщение от Dima: 2024-12-22 14:47:48 Dima:  
+2024-12-22 14:47:58.5292 Info Отправлено личное сообщение от Dima к Вадим: привет 
+2024-12-22 14:48:25.0198 Info Отправлено личное сообщение от Вадим к Dima: privet 
+2024-12-22 15:00:13.4294 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 203
+2024-12-22 15:00:13.5331 Info Сервер TCP запущен на 127.0.0.1:8014 
+2024-12-22 15:00:13.5331 Info Сервер UDP запущен на 127.0.0.1:9428 
+2024-12-22 15:00:13.5331 Info Запуск отправки сообщений через UDP. 
+2024-12-22 15:00:16.5819 Info Отправлено UDP сообщение: 2024-12-22 15:00:16 вфывфыв 
+2024-12-22 15:00:16.5819 Info 2024-12-22 15:00:16 UDP: 2024-12-22 15:00:16 вфывфыв 
+2024-12-22 15:00:16.8865 Info Отправлено UDP сообщение: 2024-12-22 15:00:16 фыв 
+2024-12-22 15:00:16.8865 Info 2024-12-22 15:00:16 UDP: 2024-12-22 15:00:16 фыв 
+2024-12-22 15:00:17.1534 Info Отправлено UDP сообщение: 2024-12-22 15:00:17 фыв 
+2024-12-22 15:00:17.1534 Info 2024-12-22 15:00:17 UDP: 2024-12-22 15:00:17 фыв 
+2024-12-22 15:01:43.3465 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 203
+2024-12-22 15:01:43.4241 Info Сервер TCP запущен на 127.0.0.1:8561 
+2024-12-22 15:01:43.4241 Info Сервер UDP запущен на 127.0.0.1:9200 
+2024-12-22 15:01:43.4241 Info Запуск отправки сообщений через UDP. 
+2024-12-22 15:01:52.2818 Info Отправлено UDP сообщение: 2024-12-22 15:01:52 фыв 
+2024-12-22 15:01:52.2818 Info 2024-12-22 15:01:52 UDP: 2024-12-22 15:01:52 фыв 
+2024-12-22 15:01:52.7106 Info Отправлено UDP сообщение: 2024-12-22 15:01:52 фыв 
+2024-12-22 15:01:52.7106 Info 2024-12-22 15:01:52 UDP: 2024-12-22 15:01:52 фыв 
+2024-12-22 15:01:53.1529 Info Отправлено UDP сообщение: 2024-12-22 15:01:53 фыв 
+2024-12-22 15:01:53.1529 Info 2024-12-22 15:01:53 UDP: 2024-12-22 15:01:53 фыв 
+2024-12-22 15:02:18.2463 Info SSH-2.0-PuTTY_Release_0.81 подключился. 
+2024-12-22 15:02:18.2463 Info Уведомление о подключении: SSH-2.0-PuTTY_Release_0.81 
+2024-12-22 15:02:40.7308 Info SSH-2.0-PuTTY_Release_0.81 отключился. 
+2024-12-22 15:02:55.6269 Info Дима подключился. 
+2024-12-22 15:02:55.6269 Info Уведомление о подключении: Дима 
+2024-12-22 15:02:58.1275 Info Сообщение от Дима: 2024-12-22 15:02:58 Дима: 2 
+2024-12-22 15:02:58.5078 Info Сообщение от Дима: 2024-12-22 15:02:58 Дима: й 
+2024-12-22 15:02:59.0215 Info Сообщение от Дима: 2024-12-22 15:02:59 Дима: ч 
+2024-12-22 15:02:59.7244 Info Сообщение от Дима: 2024-12-22 15:02:59 Дима: а 
+2024-12-22 15:03:00.3847 Info Сообщение от Дима: 2024-12-22 15:03:00 Дима: у 
+2024-12-22 15:03:00.8641 Info Сообщение от Дима: 2024-12-22 15:03:00 Дима: ц 
+2024-12-22 15:03:01.2206 Info Сообщение от Дима: 2024-12-22 15:03:01 Дима: й 
+2024-12-22 15:03:23.7895 Info Дима отключился. 
+2024-12-22 15:05:28.2260 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 203
+2024-12-22 15:05:28.2948 Info Сервер TCP запущен на 127.0.0.1:8526 
+2024-12-22 15:05:28.2948 Info Сервер UDP запущен на 127.0.0.1:9405 
+2024-12-22 15:05:28.2948 Info Запуск отправки сообщений через UDP. 
+2024-12-22 15:05:31.5071 Info Отправлено UDP сообщение: 2024-12-22 15:05:31 asd 
+2024-12-22 15:05:31.5071 Info 2024-12-22 15:05:31 UDP: 2024-12-22 15:05:31 asd 
+2024-12-22 15:05:45.4633 Info Lbvf подключился. 
+2024-12-22 15:05:45.4633 Info Уведомление о подключении: Lbvf 
+2024-12-22 15:05:47.7252 Info Сообщение от Lbvf: 2024-12-22 15:05:47 Lbvf: s 
+2024-12-22 15:05:50.0873 Info Lbvf отключился. 
+2024-12-22 15:06:54.0966 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 203
+2024-12-22 15:06:54.2255 Info Сервер TCP запущен на 127.0.0.1:8348 
+2024-12-22 15:06:54.2255 Info Сервер UDP запущен на 127.0.0.1:9492 
+2024-12-22 15:06:54.2255 Info Запуск отправки сообщений через UDP. 
+2024-12-22 15:07:18.5624 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 203
+2024-12-22 15:07:18.7142 Info Сервер TCP запущен на 127.0.0.1:8867 
+2024-12-22 15:07:18.7142 Info Сервер UDP запущен на 127.0.0.1:9163 
+2024-12-22 15:07:18.7142 Info Запуск отправки сообщений через UDP. 
+2024-12-22 15:07:26.1145 Info Отправлено UDP сообщение: 2024-12-22 15:07:26 asd 
+2024-12-22 15:07:26.1145 Info 2024-12-22 15:07:26 UDP: 2024-12-22 15:07:26 asd 
+2024-12-22 15:07:26.7471 Info Отправлено UDP сообщение: 2024-12-22 15:07:26 asd 
+2024-12-22 15:07:26.7471 Info 2024-12-22 15:07:26 UDP: 2024-12-22 15:07:26 asd 
+2024-12-22 15:07:41.5258 Info Дима подключился. 
+2024-12-22 15:07:41.5258 Info Уведомление о подключении: Дима 
+2024-12-22 15:08:01.2547 Info Дима отключился. 
+2024-12-22 15:08:57.1032 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 203
+2024-12-22 15:08:57.1892 Info Сервер TCP запущен на 127.0.0.1:8530 
+2024-12-22 15:08:57.1892 Info Сервер UDP запущен на 127.0.0.1:9245 
+2024-12-22 15:08:57.1892 Info Запуск отправки сообщений через UDP. 
+2024-12-22 15:13:52.1239 Info Гость_9c6c подключился. 
+2024-12-22 15:14:01.3567 Info Уведомление о подключении: Гость_9c6c 
+2024-12-22 15:14:01.3618 Info Сообщение от Гость_9c6c: 2024-12-22 15:14:01 Гость_9c6c:  
+2024-12-22 15:14:01.3618 Info Сообщение от Гость_9c6c: 2024-12-22 15:14:01 Гость_9c6c: имя 
+2024-12-22 15:14:11.1913 Info Гость_9c6c отключился. 
+2024-12-22 15:23:39.9735 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 160
+2024-12-22 15:23:40.0599 Info Сервер TCP запущен на 127.0.0.1:8000 
+2024-12-22 15:23:40.0599 Info Сервер UDP запущен на 127.0.0.1:9000 
+2024-12-22 15:24:00.9762 Info Lbvf подключился. 
+2024-12-22 15:24:03.5009 Info 2024-12-22 15:24:03 Lbvf: 2 
+2024-12-22 15:24:03.9745 Info 2024-12-22 15:24:03 Lbvf: 1 
+2024-12-22 15:24:22.7680 Info Lbvf отключился. 
+2024-12-22 15:24:30.6129 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 203
+2024-12-22 15:24:30.7920 Info Сервер TCP запущен на 127.0.0.1:8819 
+2024-12-22 15:24:30.7920 Info Сервер UDP запущен на 127.0.0.1:9547 
+2024-12-22 15:24:30.7920 Info Запуск отправки сообщений через UDP. 
+2024-12-22 15:24:33.9254 Info Отправлено UDP сообщение: 2024-12-22 15:24:33 asd 
+2024-12-22 15:24:33.9254 Info 2024-12-22 15:24:33 UDP: 2024-12-22 15:24:33 asd 
+2024-12-22 15:24:59.6517 Info Гость_0704 подключился. 
+2024-12-22 15:24:59.6517 Info Уведомление о подключении: Гость_0704 
+2024-12-22 15:25:07.7765 Info Отправлено UDP сообщение: 2024-12-22 15:25:07 1 
+2024-12-22 15:25:07.7765 Info 2024-12-22 15:25:07 UDP: 2024-12-22 15:25:07 1 
+2024-12-22 15:29:49.5796 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 203
+2024-12-22 15:29:49.6770 Info Сервер TCP запущен на 127.0.0.1:8249 
+2024-12-22 15:29:49.6770 Info Сервер UDP запущен на 127.0.0.1:9655 
+2024-12-22 15:29:49.6770 Info Запуск отправки сообщений через UDP. 
+2024-12-22 15:30:11.9242 Info Дима подключился. 
+2024-12-22 15:30:11.9242 Info Уведомление о подключении: Дима 
+2024-12-22 15:30:15.1078 Info Сообщение от Дима: 2024-12-22 15:30:15 Дима: в 
+2024-12-22 15:30:16.8977 Info Отправлено UDP сообщение: 2024-12-22 15:30:16 в 
+2024-12-22 15:30:16.8977 Info 2024-12-22 15:30:16 UDP: 2024-12-22 15:30:16 в 
+2024-12-22 15:32:52.3338 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 203
+2024-12-22 15:32:52.4071 Info Сервер TCP запущен на 127.0.0.1:8490 
+2024-12-22 15:32:52.4071 Info Сервер UDP запущен на 127.0.0.1:9071 
+2024-12-22 15:32:52.4071 Info Запуск отправки сообщений через UDP. 
+2024-12-22 15:33:10.5001 Info Lbvf подключился. 
+2024-12-22 15:33:10.5001 Info Уведомление о подключении: Lbvf 
+2024-12-22 15:33:12.2506 Info Отправлено UDP сообщение: 2024-12-22 15:33:12 a 
+2024-12-22 15:33:16.4726 Info Отправлено UDP сообщение: 2024-12-22 15:33:16 asd 
+2024-12-22 15:33:17.2040 Info Отправлено UDP сообщение: 2024-12-22 15:33:17 asd 
+2024-12-22 15:33:17.6598 Info Отправлено UDP сообщение: 2024-12-22 15:33:17 asd 
+2024-12-22 15:33:17.9859 Info Отправлено UDP сообщение: 2024-12-22 15:33:17 asd 
+2024-12-22 15:33:18.3016 Info Отправлено UDP сообщение: 2024-12-22 15:33:18 asd 
+2024-12-22 15:33:18.6170 Info Отправлено UDP сообщение: 2024-12-22 15:33:18 asd 
+2024-12-22 15:33:18.9247 Info Отправлено UDP сообщение: 2024-12-22 15:33:18 asd 
+2024-12-22 15:33:19.2318 Info Отправлено UDP сообщение: 2024-12-22 15:33:19 asd 
+2024-12-22 15:33:19.5400 Info Отправлено UDP сообщение: 2024-12-22 15:33:19 assd 
+2024-12-22 15:33:19.8412 Info Отправлено UDP сообщение: 2024-12-22 15:33:19 asd 
+2024-12-22 15:33:20.1531 Info Отправлено UDP сообщение: 2024-12-22 15:33:20 asd 
+2024-12-22 15:33:22.2927 Info Сообщение от Lbvf: 2024-12-22 15:33:22 Lbvf: asd 
+2024-12-22 15:33:22.7288 Info Сообщение от Lbvf: 2024-12-22 15:33:22 Lbvf: asd 
+2024-12-22 15:33:23.0741 Info Сообщение от Lbvf: 2024-12-22 15:33:23 Lbvf: asd 
+2024-12-22 15:33:23.3756 Info Сообщение от Lbvf: 2024-12-22 15:33:23 Lbvf: asd 
+2024-12-22 15:33:23.6635 Info Сообщение от Lbvf: 2024-12-22 15:33:23 Lbvf: asd 
+2024-12-22 15:33:23.9308 Info Сообщение от Lbvf: 2024-12-22 15:33:23 Lbvf: asd 
+2024-12-22 15:33:24.2375 Info Сообщение от Lbvf: 2024-12-22 15:33:24 Lbvf: asd 
+2024-12-22 15:33:24.5217 Info Сообщение от Lbvf: 2024-12-22 15:33:24 Lbvf: as 
+2024-12-22 15:43:31.6313 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 204
+2024-12-22 15:43:31.7440 Info Сервер TCP запущен на 127.0.0.1:8150 
+2024-12-22 15:43:31.7440 Info Сервер UDP запущен на 127.0.0.1:9393 
+2024-12-22 15:43:31.7440 Info Запуск отправки сообщений через UDP. 
+2024-12-22 15:43:33.6662 Info Отправлено UDP сообщение: 2024-12-22 15:43:33 asd 
+2024-12-22 15:43:33.6662 Info 2024-12-22 15:43:33 UDP: 2024-12-22 15:43:33 asd 
+2024-12-22 15:43:45.2257 Info Dima подключился. 
+2024-12-22 15:43:45.2257 Info Уведомление о подключении: Dima 
+2024-12-22 15:44:10.9010 Info Vadim подключился. 
+2024-12-22 15:44:10.9010 Info Уведомление о подключении: Vadim 
+2024-12-22 15:44:26.3598 Info Dima отключился. 
+2024-12-22 15:44:28.4248 Info Vadim отключился. 
+2024-12-22 15:45:09.2675 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 204
+2024-12-22 15:45:09.3296 Info Сервер TCP запущен на 127.0.0.1:8272 
+2024-12-22 15:45:09.3296 Info Сервер UDP запущен на 127.0.0.1:9514 
+2024-12-22 15:45:09.3296 Info Запуск отправки сообщений через UDP. 
+2024-12-22 15:45:22.6801 Info Dima подключился c 127.0.0.1, System.Net.Sockets.TcpClient. 
+2024-12-22 15:45:22.6801 Info Уведомление о подключении: Dima 
+2024-12-22 15:45:29.3757 Info Dima отключился. 
+2024-12-22 15:45:50.5784 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 204
+2024-12-22 15:45:50.6782 Info Сервер TCP запущен на 127.0.0.1:8488 
+2024-12-22 15:45:50.6782 Info Сервер UDP запущен на 127.0.0.1:9226 
+2024-12-22 15:45:50.6782 Info Запуск отправки сообщений через UDP. 
+2024-12-22 15:46:07.1671 Info Dima подключился. 
+2024-12-22 15:46:11.8142 Info Уведомление о подключении: Dima 
+2024-12-22 15:46:11.8142 Info Сообщение от Dima: 2024-12-22 15:46:11 Dima: ds 
+2024-12-22 16:00:40.4889 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 204
+2024-12-22 16:00:40.5996 Info Сервер TCP запущен на 127.0.0.1:8567 
+2024-12-22 16:00:40.5996 Info Сервер UDP запущен на 127.0.0.1:9816 
+2024-12-22 16:00:40.5996 Info Запуск отправки сообщений через UDP. 
+2024-12-22 16:05:48.3777 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\config.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 204
+2024-12-22 16:05:48.4768 Info Сервер TCP запущен на 127.0.0.1:8890 
+2024-12-22 16:05:48.4768 Info Сервер UDP запущен на 127.0.0.1:9605 
+2024-12-22 16:05:48.4768 Info Запуск отправки сообщений через UDP. 
+2024-12-22 16:06:00.5362 Info Отправлено UDP сообщение: 2024-12-22 16:06:00 фыв 
+2024-12-22 16:06:00.5362 Info 2024-12-22 16:06:00 UDP: 2024-12-22 16:06:00 фыв 
+2024-12-22 16:06:02.0008 Info Отправлено UDP сообщение: 2024-12-22 16:06:02 ф 
+2024-12-22 16:06:02.0008 Info 2024-12-22 16:06:02 UDP: 2024-12-22 16:06:02 ф 
+2024-12-22 16:06:02.6117 Info Отправлено UDP сообщение: 2024-12-22 16:06:02 ы 
+2024-12-22 16:06:02.6117 Info 2024-12-22 16:06:02 UDP: 2024-12-22 16:06:02 ы 
+2024-12-22 16:07:25.9747 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\confisg.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\confisg.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 204
+2024-12-22 16:07:26.0557 Info Сервер TCP запущен на 127.0.0.1:8365 
+2024-12-22 16:07:26.0557 Info Сервер UDP запущен на 127.0.0.1:9655 
+2024-12-22 16:07:26.0557 Info Запуск отправки сообщений через UDP. 
+2024-12-22 16:08:08.7743 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\confissg.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\confissg.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 204
+2024-12-22 16:08:08.8423 Info Сервер TCP запущен на 127.0.0.1:1213 
+2024-12-22 16:08:08.8423 Info Сервер UDP запущен на 127.0.0.1:5440 
+2024-12-22 16:08:08.8435 Info Запуск отправки сообщений через UDP. 
+2024-12-22 16:08:26.5316 Error Ошибка загрузки конфигурации. Используются значения по умолчанию. System.IO.FileNotFoundException: Could not find file 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\confissg.json'.
+File name: 'C:\Users\Дима\source\repos\Chat\Chat\bin\Debug\net8.0\confissg.json'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at ChatApplication.LoadConfig() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 204
+2024-12-22 16:08:26.6516 Info Сервер TCP запущен на 127.0.0.1:8000 
+2024-12-22 16:08:26.6516 Info Сервер UDP запущен на 127.0.0.1:9000 
+2024-12-22 16:08:26.6516 Info Запуск отправки сообщений через UDP. 
+2024-12-22 16:09:47.9588 Error Ошибка в работе приложения System.ArgumentNullException: Value cannot be null. (Parameter 'ipString')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.ArgumentNullException.ThrowIfNull(Object argument, String paramName)
+   at System.Net.IPAddress.Parse(String ipString)
+   at ChatApplication.RunAsync() in C:\Users\Дима\source\repos\Chat\Chat\server.cs:line 27
+2024-12-22 16:10:22.7986 Info Конфигурация загружена. 
+2024-12-22 16:10:22.8636 Info Сервер TCP запущен на 127.0.0.1:8005 
+2024-12-22 16:10:22.8636 Info Сервер UDP запущен на 127.0.0.1:9590 
+2024-12-22 16:10:22.8636 Info Запуск отправки сообщений через UDP. 
+2024-12-22 16:10:52.0070 Info Отправлено UDP сообщение: 2024-12-22 16:10:51 asd 
+2024-12-22 16:10:52.0070 Info 2024-12-22 16:10:52 UDP: 2024-12-22 16:10:51 asd 
+2024-12-22 16:13:21.3048 Info Конфигурация загружена. 
+2024-12-22 16:13:25.0539 Info Сервер TCP запущен на 127.0.0.1:8235 
+2024-12-22 16:13:25.0539 Info Сервер UDP запущен на 127.0.0.1:9605 
+2024-12-22 16:13:25.0539 Info Запуск отправки сообщений через UDP. 
+2024-12-22 16:15:30.9545 Info Конфигурация загружена. 
+2024-12-22 16:15:34.8308 Info Порт UDP изменен на 9000 
+2024-12-22 16:15:34.8464 Info Сервер TCP запущен на 127.0.0.1:8205 
+2024-12-22 16:15:34.8464 Info Сервер UDP запущен на 127.0.0.1:9000 
+2024-12-22 16:15:34.8464 Info Запуск отправки сообщений через UDP. 
+2024-12-22 16:31:44.6788 Info 2024-12-22 16:31:44 UDP: asd 
+2024-12-22 16:31:45.5342 Info 2024-12-22 16:31:45 UDP: asd 
+2024-12-22 16:31:45.9175 Info 2024-12-22 16:31:45 UDP: asd 
+2024-12-22 16:31:46.2493 Info 2024-12-22 16:31:46 UDP: asd 
+2024-12-22 16:31:46.5468 Info 2024-12-22 16:31:46 UDP: asd 
+2024-12-22 16:31:46.8348 Info 2024-12-22 16:31:46 UDP: asdsd 
+2024-12-22 16:31:47.1299 Info 2024-12-22 16:31:47 UDP: as 
+2024-12-22 16:31:47.4291 Info 2024-12-22 16:31:47 UDP: asdd 
+2024-12-22 16:31:47.7716 Info 2024-12-22 16:31:47 UDP: asd 
+2024-12-22 16:31:48.0860 Info 2024-12-22 16:31:48 UDP: asda 
+2024-12-22 16:31:48.3794 Info 2024-12-22 16:31:48 UDP: s 
+2024-12-22 16:31:48.6587 Info 2024-12-22 16:31:48 UDP: sda 
+2024-12-22 16:31:48.9612 Info 2024-12-22 16:31:48 UDP: sda 
+2024-12-22 16:31:49.2252 Info 2024-12-22 16:31:49 UDP: sda 
+2024-12-22 16:31:49.5145 Info 2024-12-22 16:31:49 UDP: sda 
+2024-12-22 16:31:49.8363 Info 2024-12-22 16:31:49 UDP: sd 
+2024-12-22 16:31:50.7132 Info 2024-12-22 16:31:50 UDP: a 
+2024-12-22 16:31:51.0456 Info 2024-12-22 16:31:51 UDP: s 
+2024-12-22 16:31:51.3901 Info 2024-12-22 16:31:51 UDP: a 
+2024-12-22 16:31:51.6900 Info 2024-12-22 16:31:51 UDP: s 
+2024-12-22 16:31:51.9997 Info 2024-12-22 16:31:51 UDP: s 
+2024-12-22 16:31:52.2898 Info 2024-12-22 16:31:52 UDP: a 
+2024-12-22 16:31:52.5810 Info 2024-12-22 16:31:52 UDP: s 
+2024-12-22 16:31:52.8755 Info 2024-12-22 16:31:52 UDP: s 
+2024-12-22 16:31:53.1645 Info 2024-12-22 16:31:53 UDP: a 
+2024-12-22 16:31:53.4462 Info 2024-12-22 16:31:53 UDP: s 
+2024-12-22 16:31:54.1797 Info 2024-12-22 16:31:54 UDP: s 
+2024-12-22 16:31:56.2628 Info Отправлено UDP сообщение: 2024-12-22 16:31:56 as 
+2024-12-22 16:31:56.2628 Info 2024-12-22 16:31:56 UDP: 2024-12-22 16:31:56 as 
+2024-12-22 16:32:04.8376 Info Отправлено UDP сообщение: 2024-12-22 16:32:04 sas 
+2024-12-22 16:32:04.8376 Info 2024-12-22 16:32:04 UDP: 2024-12-22 16:32:04 sas 
+2024-12-22 16:34:01.7212 Info Конфигурация загружена. 
+2024-12-22 16:34:06.5793 Info Порт UDP изменен на 9000 
+2024-12-22 16:34:06.5975 Info Сервер TCP запущен на 127.0.0.1:8950 
+2024-12-22 16:34:06.5975 Info Сервер UDP запущен на 127.0.0.1:9000 
+2024-12-22 16:34:06.5975 Info Запуск отправки сообщений через UDP. 
+2024-12-22 16:38:20.5229 Info Конфигурация загружена. 
+2024-12-22 16:38:23.5942 Info Сервер TCP запущен на 127.0.0.1:8482 
+2024-12-22 16:38:23.5942 Info Сервер UDP запущен на 127.0.0.1:9350 
+2024-12-22 16:38:23.5942 Info Запуск отправки сообщений через UDP. 
+2024-12-22 16:47:01.9383 Info Конфигурация загружена. 
+2024-12-22 16:47:01.9773 Info Сервер TCP запущен на 127.0.0.1:8384 
+2024-12-22 16:47:01.9773 Info Сервер UDP запущен на 127.0.0.1:9821 
+2024-12-22 16:47:01.9773 Info Запуск отправки сообщений через UDP. 
+2024-12-22 16:48:47.8479 Info Конфигурация загружена. 
+2024-12-22 16:49:04.4166 Info Конфигурация загружена. 
+2024-12-22 16:49:10.3090 Info Сервер TCP запущен на 127.0.0.1:8632 
+2024-12-22 16:49:10.3090 Info Сервер UDP запущен на 127.0.0.1:9370 
+2024-12-22 16:49:10.3090 Info Запуск отправки сообщений через UDP. 
+2024-12-22 16:49:49.4539 Info Конфигурация загружена. 
+2024-12-22 16:49:51.6044 Info Сервер TCP запущен на 127.0.0.1:8106 
+2024-12-22 16:49:51.6044 Info Сервер UDP запущен на 127.0.0.1:9449 
+2024-12-22 16:49:51.6044 Info Запуск отправки сообщений через UDP. 
+2024-12-22 16:51:45.7899 Info Конфигурация загружена. 
+2024-12-22 16:51:48.1345 Info Сервер TCP запущен на 127.0.0.1:8826 
+2024-12-22 16:51:48.1345 Info Сервер UDP запущен на 127.0.0.1:9612 
+2024-12-22 16:51:48.1345 Info Запуск отправки сообщений через UDP. 
+2024-12-22 17:02:04.1273 Info Конфигурация загружена. 
+2024-12-22 17:02:05.7357 Info Сервер TCP запущен на 127.0.0.1:8151 
+2024-12-22 17:02:05.7357 Info Сервер UDP запущен на 127.0.0.1:9109 
+2024-12-22 17:02:05.7357 Info Запуск отправки сообщений через UDP. 
+2024-12-22 17:03:00.1247 Info Конфигурация загружена. 
+2024-12-22 17:03:02.1862 Info Сервер TCP запущен на 127.0.0.1:8910 
+2024-12-22 17:03:02.1862 Info Сервер UDP запущен на 127.0.0.1:9235 
+2024-12-22 17:03:02.1883 Info Запуск отправки сообщений через UDP. 
+2024-12-22 17:11:27.1300 Info Конфигурация загружена. 
+2024-12-22 17:11:29.1517 Info Сервер TCP запущен на 127.0.0.1:8438 
+2024-12-22 17:11:29.1517 Info Сервер UDP запущен на 127.0.0.1:9733 
+2024-12-22 17:11:29.1517 Info Запуск отправки сообщений через UDP. 
+2024-12-22 17:12:43.5835 Info Конфигурация загружена. 
+2024-12-22 17:12:43.6192 Info Сервер TCP запущен на 127.0.0.1:8814 
+2024-12-22 17:12:43.6192 Info Сервер UDP запущен на 127.0.0.1:9648 
+2024-12-22 17:12:43.6192 Info Запуск отправки сообщений через UDP. 
+2024-12-22 17:14:09.9290 Info Конфигурация загружена. 
+2024-12-22 17:14:11.3922 Info Сервер TCP запущен на 127.0.0.1:8290 
+2024-12-22 17:14:11.3922 Info Сервер UDP запущен на 127.0.0.1:9285 
+2024-12-22 17:14:11.3922 Info Запуск отправки сообщений через UDP. 
+2024-12-22 17:14:49.1791 Info 2024-12-22 17:14:49 UDP: 2024-12-22 17:14:49 asd 
+2024-12-22 17:14:49.6194 Info 2024-12-22 17:14:49 UDP: 2024-12-22 17:14:49 asd 
+2024-12-22 17:14:49.8233 Info 2024-12-22 17:14:49 UDP: 2024-12-22 17:14:49 as 
+2024-12-22 17:14:49.9728 Info 2024-12-22 17:14:49 UDP: 2024-12-22 17:14:49 da 
+2024-12-22 17:14:50.1443 Info 2024-12-22 17:14:50 UDP: 2024-12-22 17:14:50 sd 
+2024-12-22 17:14:50.3009 Info 2024-12-22 17:14:50 UDP: 2024-12-22 17:14:50 asd 
+2024-12-22 17:14:50.4473 Info 2024-12-22 17:14:50 UDP: 2024-12-22 17:14:50 a 
+2024-12-22 17:14:50.6105 Info 2024-12-22 17:14:50 UDP: 2024-12-22 17:14:50 sd 
+2024-12-22 17:14:50.7588 Info 2024-12-22 17:14:50 UDP: 2024-12-22 17:14:50 asd 
+2024-12-22 17:14:50.9207 Info 2024-12-22 17:14:50 UDP: 2024-12-22 17:14:50 a 
+2024-12-22 17:14:51.1023 Info 2024-12-22 17:14:51 UDP: 2024-12-22 17:14:51 sd 
+2024-12-22 17:14:51.2952 Info 2024-12-22 17:14:51 UDP: 2024-12-22 17:14:51 asd 
+2024-12-22 17:14:51.4783 Info 2024-12-22 17:14:51 UDP: 2024-12-22 17:14:51 as 
+2024-12-22 17:14:51.6643 Info 2024-12-22 17:14:51 UDP: 2024-12-22 17:14:51 da 
+2024-12-22 17:14:51.8417 Info 2024-12-22 17:14:51 UDP: 2024-12-22 17:14:51 sd 
+2024-12-22 17:14:52.0076 Info 2024-12-22 17:14:52 UDP: 2024-12-22 17:14:52 asd 
+2024-12-22 17:14:52.1801 Info 2024-12-22 17:14:52 UDP: 2024-12-22 17:14:52 a 
+2024-12-22 17:14:52.3677 Info 2024-12-22 17:14:52 UDP: 2024-12-22 17:14:52 sda 
+2024-12-22 17:14:52.5658 Info 2024-12-22 17:14:52 UDP: 2024-12-22 17:14:52 sd 
+2024-12-22 17:14:52.7861 Info 2024-12-22 17:14:52 UDP: 2024-12-22 17:14:52 ads 
+2024-12-22 17:14:56.2544 Info Отправлено UDP сообщение: 2024-12-22 17:14:56 asd 
+2024-12-22 17:14:56.2544 Info 2024-12-22 17:14:56 UDP: 2024-12-22 17:14:56 asd 
+2024-12-22 17:14:56.4056 Info Отправлено UDP сообщение: 2024-12-22 17:14:56 a 
+2024-12-22 17:14:56.4056 Info 2024-12-22 17:14:56 UDP: 2024-12-22 17:14:56 a 
+2024-12-22 17:14:56.5991 Info Отправлено UDP сообщение: 2024-12-22 17:14:56 sd 
+2024-12-22 17:14:56.5991 Info 2024-12-22 17:14:56 UDP: 2024-12-22 17:14:56 sd 
+2024-12-22 17:14:56.7724 Info Отправлено UDP сообщение: 2024-12-22 17:14:56 asd 
+2024-12-22 17:14:56.7724 Info 2024-12-22 17:14:56 UDP: 2024-12-22 17:14:56 asd 
+2024-12-22 17:14:56.9605 Info Отправлено UDP сообщение: 2024-12-22 17:14:56 a 
+2024-12-22 17:14:56.9605 Info 2024-12-22 17:14:56 UDP: 2024-12-22 17:14:56 a 
+2024-12-22 17:14:57.1333 Info Отправлено UDP сообщение: 2024-12-22 17:14:57 sd 
+2024-12-22 17:14:57.1333 Info 2024-12-22 17:14:57 UDP: 2024-12-22 17:14:57 sd 
+2024-12-22 17:14:57.3304 Info Отправлено UDP сообщение: 2024-12-22 17:14:57 asd 
+2024-12-22 17:14:57.3304 Info 2024-12-22 17:14:57 UDP: 2024-12-22 17:14:57 asd 
+2024-12-22 17:15:38.1494 Info Отправлено UDP сообщение: 2024-12-22 17:15:38 asdasdasd 
+2024-12-22 17:15:38.1672 Info 2024-12-22 17:15:38 UDP: 2024-12-22 17:15:38 asdasdasd 
+2024-12-22 17:15:44.7251 Info 2024-12-22 17:15:44 UDP: 2024-12-22 17:15:44 asd 
+2024-12-22 17:15:46.6375 Info Отправлено UDP сообщение: 2024-12-22 17:15:46 asd 
+2024-12-22 17:15:46.6375 Info 2024-12-22 17:15:46 UDP: 2024-12-22 17:15:46 asd 
+2024-12-22 17:15:47.3020 Info Отправлено UDP сообщение: 2024-12-22 17:15:47 asd 
+2024-12-22 17:15:47.3020 Info 2024-12-22 17:15:47 UDP: 2024-12-22 17:15:47 asd 
+2024-12-22 17:15:47.4900 Info Отправлено UDP сообщение: 2024-12-22 17:15:47 a 
+2024-12-22 17:15:47.4900 Info 2024-12-22 17:15:47 UDP: 2024-12-22 17:15:47 a 
+2024-12-22 17:15:47.6601 Info Отправлено UDP сообщение: 2024-12-22 17:15:47 sd 
+2024-12-22 17:15:47.6601 Info 2024-12-22 17:15:47 UDP: 2024-12-22 17:15:47 sd 
+2024-12-22 17:15:47.8549 Info Отправлено UDP сообщение: 2024-12-22 17:15:47 asd 
+2024-12-22 17:15:47.8549 Info 2024-12-22 17:15:47 UDP: 2024-12-22 17:15:47 asd 
+2024-12-22 17:15:48.0553 Info Отправлено UDP сообщение: 2024-12-22 17:15:48 as 
+2024-12-22 17:15:48.0553 Info 2024-12-22 17:15:48 UDP: 2024-12-22 17:15:48 as 
+2024-12-22 17:15:48.2195 Info Отправлено UDP сообщение: 2024-12-22 17:15:48 d 
+2024-12-22 17:15:48.2195 Info 2024-12-22 17:15:48 UDP: 2024-12-22 17:15:48 d 
+2024-12-22 17:16:14.5101 Info 2024-12-22 17:16:14 UDP: 2024-12-22 17:16:14 as 
+2024-12-22 17:16:14.7200 Info 2024-12-22 17:16:14 UDP: 2024-12-22 17:16:14 da 
+2024-12-22 17:16:14.8944 Info 2024-12-22 17:16:14 UDP: 2024-12-22 17:16:14 sd 
+2024-12-22 17:16:15.0839 Info 2024-12-22 17:16:15 UDP: 2024-12-22 17:16:15 as 
+2024-12-22 17:16:15.2779 Info 2024-12-22 17:16:15 UDP: 2024-12-22 17:16:15 d 
+2024-12-22 17:16:15.4895 Info 2024-12-22 17:16:15 UDP: 2024-12-22 17:16:15 asd 
+2024-12-22 17:16:15.6827 Info 2024-12-22 17:16:15 UDP: 2024-12-22 17:16:15 as 
+2024-12-22 17:16:15.8848 Info 2024-12-22 17:16:15 UDP: 2024-12-22 17:16:15 d 
+2024-12-22 17:16:17.6887 Info Отправлено UDP сообщение: 2024-12-22 17:16:17 a 
+2024-12-22 17:16:17.6887 Info 2024-12-22 17:16:17 UDP: 2024-12-22 17:16:17 a 
+2024-12-22 17:16:17.8833 Info Отправлено UDP сообщение: 2024-12-22 17:16:17 sd 
+2024-12-22 17:16:17.8833 Info 2024-12-22 17:16:17 UDP: 2024-12-22 17:16:17 sd 
+2024-12-22 17:16:18.0743 Info Отправлено UDP сообщение: 2024-12-22 17:16:18 as 
+2024-12-22 17:16:18.0743 Info 2024-12-22 17:16:18 UDP: 2024-12-22 17:16:18 as 
+2024-12-22 17:16:18.2519 Info Отправлено UDP сообщение: 2024-12-22 17:16:18 da 
+2024-12-22 17:16:18.2519 Info 2024-12-22 17:16:18 UDP: 2024-12-22 17:16:18 da 
+2024-12-22 17:16:18.4409 Info Отправлено UDP сообщение: 2024-12-22 17:16:18 sd 
+2024-12-22 17:16:18.4409 Info 2024-12-22 17:16:18 UDP: 2024-12-22 17:16:18 sd 
+2024-12-22 17:16:18.5940 Info Отправлено UDP сообщение: 2024-12-22 17:16:18 asd 
+2024-12-22 17:16:18.5940 Info 2024-12-22 17:16:18 UDP: 2024-12-22 17:16:18 asd 
+2024-12-22 17:16:30.7692 Info 2024-12-22 17:16:30 UDP: 2024-12-22 17:16:30 as 
+2024-12-22 17:16:30.9871 Info 2024-12-22 17:16:30 UDP: 2024-12-22 17:16:30 da 
+2024-12-22 17:16:31.1779 Info 2024-12-22 17:16:31 UDP: 2024-12-22 17:16:31 sd 
+2024-12-22 17:16:31.3708 Info 2024-12-22 17:16:31 UDP: 2024-12-22 17:16:31 as 
+2024-12-22 17:16:31.5806 Info 2024-12-22 17:16:31 UDP: 2024-12-22 17:16:31 d 
+2024-12-22 17:16:31.7957 Info 2024-12-22 17:16:31 UDP: 2024-12-22 17:16:31 asd 
+2024-12-22 17:16:32.3885 Info 2024-12-22 17:16:32 UDP: 2024-12-22 17:16:32 d 
+2024-12-22 17:16:32.8680 Info 2024-12-22 17:16:32 UDP: 2024-12-22 17:16:32 a 
+2024-12-22 17:16:33.1247 Info 2024-12-22 17:16:33 UDP: 2024-12-22 17:16:33 s 
+2024-12-22 17:16:33.3827 Info 2024-12-22 17:16:33 UDP: 2024-12-22 17:16:33 d 
+2024-12-22 17:16:33.6346 Info 2024-12-22 17:16:33 UDP: 2024-12-22 17:16:33 a 
+2024-12-22 17:16:33.8810 Info 2024-12-22 17:16:33 UDP: 2024-12-22 17:16:33 sd 
+2024-12-22 17:16:34.1378 Info 2024-12-22 17:16:34 UDP: 2024-12-22 17:16:34 a 
+2024-12-22 17:16:34.3727 Info 2024-12-22 17:16:34 UDP: 2024-12-22 17:16:34 d 
+2024-12-22 17:16:34.6049 Info 2024-12-22 17:16:34 UDP: 2024-12-22 17:16:34 a 
+2024-12-22 17:16:34.8309 Info 2024-12-22 17:16:34 UDP: 2024-12-22 17:16:34 d 
+2024-12-22 17:16:35.1016 Info 2024-12-22 17:16:35 UDP: 2024-12-22 17:16:35 a 
+2024-12-22 17:16:35.3234 Info 2024-12-22 17:16:35 UDP: 2024-12-22 17:16:35 d 
+2024-12-22 17:16:35.5658 Info 2024-12-22 17:16:35 UDP: 2024-12-22 17:16:35 a 
+2024-12-22 17:16:35.7992 Info 2024-12-22 17:16:35 UDP: 2024-12-22 17:16:35 d 
+2024-12-22 17:16:36.0527 Info 2024-12-22 17:16:36 UDP: 2024-12-22 17:16:36 a 
+2024-12-22 17:16:36.2932 Info 2024-12-22 17:16:36 UDP: 2024-12-22 17:16:36 d 
+2024-12-22 17:16:36.5204 Info 2024-12-22 17:16:36 UDP: 2024-12-22 17:16:36 a 
+2024-12-22 17:16:36.7900 Info 2024-12-22 17:16:36 UDP: 2024-12-22 17:16:36 da 
+2024-12-22 17:16:37.0114 Info 2024-12-22 17:16:37 UDP: 2024-12-22 17:16:37 d 
+2024-12-22 17:16:37.2694 Info 2024-12-22 17:16:37 UDP: 2024-12-22 17:16:37 a 
+2024-12-22 17:16:37.5241 Info 2024-12-22 17:16:37 UDP: 2024-12-22 17:16:37 d 
+2024-12-22 18:26:46.9092 Info Конфигурация загружена. 
+2024-12-22 18:27:03.9605 Info Сервер TCP запущен на 127.0.0.1:8913 
+2024-12-22 18:27:03.9605 Info Сервер UDP запущен на 127.0.0.1:9013 
+2024-12-22 18:27:03.9605 Info Запуск отправки сообщений через UDP. 
+2024-12-22 18:28:10.8970 Info Маша подключился. 
+2024-12-22 18:28:10.8970 Info Уведомление о подключении: Маша 
+2024-12-22 18:28:15.5551 Info Дима подключился. 
+2024-12-22 18:28:15.5551 Info Уведомление о подключении: Дима 
+2024-12-22 18:28:19.6194 Info егор подключился. 
+2024-12-22 18:28:19.6194 Info Уведомление о подключении: егор 
+2024-12-22 18:28:24.0672 Info Мурат подключился. 
+2024-12-22 18:28:24.0672 Info Уведомление о подключении: Мурат 
+2024-12-22 18:28:48.3145 Info Сообщение от Дима: 2024-12-22 18:28:48 Дима: Всем привет 
+2024-12-22 18:29:28.3208 Info Сообщение от Маша: 2024-12-22 18:29:28 Маша: ку 
+2024-12-22 18:34:32.6793 Info Сообщение от Мурат: 2024-12-22 18:34:32 Мурат: вау оно работает 
+2024-12-22 18:34:40.4048 Info Сообщение от егор: 2024-12-22 18:34:40 егор: а то 
+2024-12-22 18:35:00.2753 Info Отправлено личное сообщение от егор к Мурат: го кс 
+2024-12-22 18:35:29.8645 Info Отправлено личное сообщение от Мурат к егор: может дота ту??? 
+2024-12-22 18:37:36.5903 Info 2024-12-22 18:37:36 UDP: 2024-12-22 18:37:36 d 
+2024-12-22 18:37:37.9532 Info 2024-12-22 18:37:37 UDP: 2024-12-22 18:37:37 s 
+2024-12-22 18:37:38.8893 Info 2024-12-22 18:37:38 UDP: 2024-12-22 18:37:38 a 
+2024-12-22 18:37:47.6218 Info 2024-12-22 18:37:47 UDP: 2024-12-22 18:37:47 ща всех взламаююююююююю 
+2024-12-22 18:38:59.8254 Info Отправлено UDP сообщение: 2024-12-22 18:38:59 о нет 
+2024-12-22 18:38:59.8328 Info 2024-12-22 18:38:59 UDP: 2024-12-22 18:38:59 о нет 
+2024-12-22 18:41:13.9405 Info Маша отключился. 
+2024-12-22 18:41:16.1814 Info Дима отключился. 
+2024-12-22 18:41:18.1279 Info егор отключился. 
+2024-12-22 18:41:20.1753 Info Мурат отключился. 
+2024-12-22 18:42:36.9702 Info Конфигурация загружена. 
+2024-12-22 18:42:39.4851 Info Сервер TCP запущен на 127.0.0.1:8085 
+2024-12-22 18:42:39.4851 Info Сервер UDP запущен на 127.0.0.1:9194 
+2024-12-22 18:42:39.4851 Info Запуск отправки сообщений через UDP. 
+2024-12-22 18:43:01.4616 Info Дима подключился. 
+2024-12-22 18:43:01.4616 Info Уведомление о подключении: Дима 
+2024-12-22 18:43:10.6600 Info Дима отключился. 
+2024-12-22 18:43:40.5664 Info Конфигурация загружена. 
+2024-12-22 18:43:41.7923 Info Сервер TCP запущен на 127.0.0.1:8146 
+2024-12-22 18:43:41.7923 Info Сервер UDP запущен на 127.0.0.1:9563 
+2024-12-22 18:43:41.7923 Info Запуск отправки сообщений через UDP. 
+2024-12-22 18:44:16.6947 Info Дима подключился. 
+2024-12-22 18:44:16.6947 Info Уведомление о подключении: Дима 
+2024-12-22 18:44:20.2634 Info Маша подключился. 
+2024-12-22 18:44:20.2634 Info Уведомление о подключении: Маша 
+2024-12-22 18:44:25.1113 Info егор подключился. 
+2024-12-22 18:44:25.1113 Info Уведомление о подключении: егор 
+2024-12-22 18:44:29.5789 Info Сообщение от егор: 2024-12-22 18:44:29 егор: Привет 
+2024-12-22 18:44:31.9837 Info Сообщение от Дима: 2024-12-22 18:44:31 Дима: ку 
+2024-12-22 18:44:35.6861 Info Сообщение от Маша: 2024-12-22 18:44:35 Маша: Приветик 
+2024-12-22 18:44:41.6449 Info Дима отключился. 
+2024-12-22 18:44:43.7163 Info Маша отключился. 
+2024-12-22 18:44:47.0048 Info егор отключился. 
+2024-12-22 18:51:24.4306 Info Конфигурация загружена. 
+2024-12-22 18:51:32.7468 Info Сервер TCP запущен на 127.0.0.1:8429 
+2024-12-22 18:51:32.7468 Info Сервер UDP запущен на 127.0.0.1:9266 
+2024-12-22 18:51:32.7468 Info Запуск отправки сообщений через UDP. 
+2024-12-22 18:51:48.3933 Info Дима подключился. 
+2024-12-22 18:51:48.3933 Info Уведомление о подключении: Дима 
+2024-12-22 18:51:50.8348 Info Сообщение от Дима: 2024-12-22 18:51:50 Дима: привет 
+2024-12-22 18:52:00.4297 Info Сообщение от Дима: 2024-12-22 18:52:00 Дима: ф 
+2024-12-22 18:52:03.3360 Info Дима отключился. 
